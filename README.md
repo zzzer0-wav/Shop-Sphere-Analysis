@@ -15,8 +15,40 @@ The goal is to practice data wrangling using realistic data that contains missin
 ![Marketing](https://img.shields.io/badge/Table-marketing-blue)
 
 ## Project structure
+    ├── data/
+
+    │ └── shopsphere_customers.csv
+
+    │ └── shopsphere_marketing.csv
+  
+    │ └── shopsphere_order_items.csv
+
+    │ └── shopsphere_orders.csv
+  
+    │ └── shopsphere_products.csv
+
+
+    ├── notebooks/
+
+    │ └── shopsphere_tests.ipynb
+
+
+    |── tasks/
+
+    │ └── task.md
+
+    │ └── task_medium.md
+  
+
+    └── README.md
+
+    └── report.md
+
+    └── requirements.txt
 
 ## Visualization
 
 ## Tech Stack
 
+## Installing
+pip install -r requirements.txt
