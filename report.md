@@ -21,7 +21,7 @@ Data was prepared and aggregated using SQL (SQLite) with JOINs and subqueries. F
 **Forecast.** A Prophet model trained on 2022–2024 monthly revenue predicts a December 2025 peak of +/- $697K, consistent with prior holiday seasonality. Revenue is expected to drop sharply in January 2025 (~$148K) before recovering through the year.
 
 ## Recommendations
-The most impactful thing would be realocating Paid Search budget by 40-50% and moving that money to a Organic, Refferal and Email - channels that bring better returns and higher-quality customers. Beauty and Sports are also worth investing in more: both have strong margins and few returns, but are currently underdeveloped.
+The most impactful thing would be reallocating Paid Search budget by 40-50% and moving that money to a Organic, Referral and Email - channels that bring better returns and higher-quality customers. Beauty and Sports are also worth investing in more: both have strong margins and few returns, but are currently underdeveloped.
 
 The top 5% of customers bring in 35% of all revenue, so losing even a few of them hurts. A simple VIP program — early access to new products, personal service — would help keep them. For customers who mostly buy on discounts, a reward system like "get a bonus on your 5th order" works better than constant sales, because it builds loyalty without cutting into profit.
 
