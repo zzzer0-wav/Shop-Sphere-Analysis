@@ -1,83 +1,83 @@
-**☕ Прогнозування продажів з Python**
+# **☕ Sales Forecasting with Python**
 
-**Просте завдання з машинного навчання (scikit-learn)**
+**A Simple Machine Learning Task (scikit-learn)**
 
-Посилання на дані: [coffee\_sales](https://docs.google.com/spreadsheets/d/1MQfxhhAQPYu4pFdQ70XJbdkf047AAXwk__U9hSL68NQ/edit?usp=sharing)
+Data link: [coffee_sales](https://docs.google.com/spreadsheets/d/1MQfxhhAQPYu4pFdQ70XJbdkf047AAXwk__U9hSL68NQ/edit?usp=sharing)
 
-Посилання на колаб: [coffee\_forecast.ipynb](https://colab.research.google.com/drive/1juwcB-bVkM_t-utRyOfkyWNVGBzxeQIl?usp=sharing)
+Colab link: [coffee_forecast.ipynb](https://colab.research.google.com/drive/1juwcB-bVkM_t-utRyOfkyWNVGBzxeQIl?usp=sharing)
 
-# **Про що це завдання**
+# **What this assignment is about**
 
-У цьому проєкті ви навчите свою першу модель машинного навчання — таку, що прогнозує майбутні продажі кав'ярні на основі минулих даних. Ви скористаєтесь бібліотекою scikit-learn, найпопулярнішим інструментом ML у Python.
+In this project, you will train your first machine learning model — one that predicts the future sales of a coffee shop based on historical data. You will use the **scikit-learn** library, the most popular ML tool in Python.
 
-**Не потрібно бути програмістом.** Майже весь код уже написаний. Вам треба лише запускати клітинки по черзі та заповнити 2-3 маленькі пропуски. Головне у цьому завданні — **не код, а вміння пояснити результат простими словами**, як це робить справжній аналітик перед керівництвом.
+**You do not need to be a programmer.** Almost all of the code has already been written. You only need to run the cells one by one and fill in 2–3 small blanks. The main goal of this assignment is **not the code, but the ability to explain the result in simple words**, just like a real analyst would do when presenting to management.
 
-*💡 Модель, яку ви побудуєте, називається «лінійна регресія». Це найпростіший вид прогнозування: модель проводить пряму лінію крізь ваші дані й продовжує її в майбутнє. Проста, але дуже корисна для розуміння основ.*
+*💡 The model you will build is called **linear regression**. It is the simplest type of forecasting: the model draws a straight line through your data and extends it into the future. Simple, but very useful for understanding the basics.*
 
-# **Легенда**
+# **Scenario**
 
-Ви — аналітик мережі кав'ярень **"CoffeeTime"**. У вас є дані про щомісячну виручку за 3 роки (2022–2024) — 36 місяців. Директор готує бюджет на наступний рік і питає вас: *"Скільки ми зароблятимемо в першій половині 2025 року?"* Ваше завдання — побудувати прогноз і, найголовніше, чесно пояснити директору, наскільки цьому прогнозу можна довіряти.
+You are an analyst for the **"CoffeeTime"** coffee shop chain. You have data on monthly revenue for 3 years (2022–2024) — 36 months. The director is preparing the budget for next year and asks you: *"How much revenue will we generate in the first half of 2025?"* Your task is to build a forecast and, most importantly, honestly explain to the director how much this forecast can be trusted.
 
-# **Файли**
+# **Files**
 
-* **coffee\_forecast.ipynb** — ноутбук із завданням (відкрийте в Google Colab)
+* **coffee_forecast.ipynb** — the notebook with the assignment (open it in Google Colab)
 
-* **coffee\_sales.csv** — дані про виручку (покладіть у ту саму папку, що й ноутбук)
+* **coffee_sales.csv** — the revenue data (place it in the same folder as the notebook)
 
-# **Як виконувати**
+# **How to complete the assignment**
 
-1. Відкрийте **coffee\_forecast.ipynb** і читайте пояснення до кожного кроку.
+1. Open **coffee_forecast.ipynb** and read the explanation for each step.
 
-2. Запускайте клітинки по черзі, зверху вниз (Shift \+ Enter).
+2. Run the cells one by one, from top to bottom (Shift + Enter).
 
-3. Там, де стоїть позначка **\# ⬅️ ВАШ КОД**, заповніть пропуск (це буквально 1 рядок).
+3. Wherever you see **# ⬅️ YOUR CODE**, fill in the blank (it's literally one line).
 
-4. Відповідайте на **питання на інтерпретацію** (їх 4 \+ бонус) — це найважливіша частина. Пишіть відповіді прямо в ноутбуці.
+4. Answer the **interpretation questions** (4 + bonus) — this is the most important part. Write your answers directly in the notebook.
 
-# **Що ви робитимете (8 кроків)**
+# **What you will do (8 steps)**
 
-* Крок 1-2: підключаєте бібліотеки, завантажуєте дані
+* Step 1–2: Import the libraries and load the data.
 
-* Крок 3: будуєте графік і дивитесь на дані очима
+* Step 3: Build a chart and examine the data visually.
 
-* Крок 4-5: готуєте дані й навчаєте модель (тут головний пропуск — виклик .fit())
+* Step 4–5: Prepare the data and train the model (the main blank here is the `.fit()` call).
 
-* Крок 6: перевіряєте, як модель описує минуле
+* Step 6: Check how well the model describes the historical data.
 
-* Крок 7: 🔮 будуєте прогноз на 6 місяців уперед
+* Step 7: 🔮 Build a forecast for the next 6 months.
 
-* Крок 8: ⭐ бонус — прогноз на окремий місяць
+* Step 8: ⭐ Bonus — make a forecast for a specific month.
 
-# **Головне: питання на інтерпретацію**
+# **The most important part: interpretation questions**
 
-У ноутбуці є 4 обов'язкові питання (плюс бонус). Вони — серце завдання. Ось про що вони, щоб ви знали, на що звертати увагу:
+The notebook contains 4 required questions (plus a bonus). They are the heart of the assignment. Here's what they are about, so you know what to pay attention to:
 
-*🧠 Питання 1 — читання графіка: який напрямок тренду, чи є сезонні коливання.*
+*🧠 Question 1 — Reading the chart: What is the direction of the trend? Are there any seasonal fluctuations?*
 
-*🧠 Питання 2 — сенс «нахилу»: що число нахилу означає для директора простими словами (на скільки грн зростає виручка щомісяця).*
+*🧠 Question 2 — The meaning of the "slope": What does the slope value mean for the director in simple words (by how many UAH the revenue increases each month)?*
 
-*🧠 Питання 3 — чому точки не лежать ідеально на лінії, і чи достатньо простої прямої.*
+*🧠 Question 3 — Why don't the points lie perfectly on the line, and is a simple straight line sufficient?*
 
-*🧠 Питання 4 (найважливіше) — чи можна довіряти прогнозу, які його обмеження, і чому пряма лінія «в нескінченність» небезпечна для бізнесу.*
+*🧠 Question 4 (the most important) — Can the forecast be trusted? What are its limitations, and why is extending a straight line "to infinity" dangerous for a business?*
 
-*💡 Не існує єдиної «правильної» відповіді на питання інтерпретації. Ми оцінюємо, чи ви розумієте, що робить модель, і чи бачите її обмеження. Чесне «прогнозу не можна повністю довіряти, бо...» цінніше за наївне «модель сказала 31 539 грн, значить так і буде».*
+*💡 There is no single "correct" answer to the interpretation questions. We evaluate whether you understand what the model does and whether you recognize its limitations. An honest "The forecast cannot be fully trusted because..." is more valuable than a naive "The model predicted 31,539 UAH, so that's exactly what will happen."*
 
-# **Що здати**
+# **What to submit**
 
-* Заповнений ноутбук coffee\_forecast.ipynb з усіма запущеними клітинками (щоб було видно графіки) (посилання на гугл колаб)
+* The completed **coffee_forecast.ipynb** notebook with all cells executed (so the charts are visible) (Google Colab link)
 
-* Відповіді на всі 4 питання \+ бонус, написані прямо в ноутбуці
+* Answers to all 4 questions + the bonus, written directly in the notebook.
 
-*💡 Перед здачею переконайтесь, що ноутбук запускається зверху вниз без помилок. Графіки мають відображатись.*
+*💡 Before submitting, make sure the notebook runs from top to bottom without errors. The charts should be displayed.*
 
-# **Критерії оцінювання**
+# **Grading Criteria**
 
-| Критерій | Бали |
+| Criterion | Points |
 | :---- | :---- |
-| Код працює (пропуски заповнено, ноутбук запускається) | **30** |
-| Питання 1-2: читання графіка та розуміння «нахилу» | **20** |
-| Питання 3: розуміння, чому точки відхиляються від лінії | **15** |
-| Питання 4: розуміння обмежень прогнозу (найважливіше) | **30** |
-| Бонус: прогноз на окремий місяць \+ міркування | **5** |
+| The code works (all blanks are completed, the notebook runs successfully) | **30** |
+| Questions 1–2: Reading the chart and understanding the "slope" | **20** |
+| Question 3: Understanding why the points deviate from the line | **15** |
+| Question 4: Understanding the limitations of the forecast (the most important) | **30** |
+| Bonus: Forecast for a specific month + reasoning | **5** |
 
-*Успіху\! Пам'ятайте: аналітик, який розуміє обмеження моделі, цінніший за того, хто просто вміє натиснути кнопку. ☕📈*
+*Good luck! Remember: an analyst who understands the limitations of a model is more valuable than one who simply knows how to press a button. ☕📈*
