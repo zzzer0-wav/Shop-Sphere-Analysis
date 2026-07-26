@@ -30,8 +30,26 @@ The data is spread across 5 related tables connected via customer, order, and pr
     │ └── shopsphere_orders.csv
   
     │ └── shopsphere_products.csv
+    
 
+    ├── foreecast_project/
 
+    │ └── coffee_forecast.ipynb
+
+    │ └── forecast_project.md
+    
+ 
+    ├── images
+
+    │ └── clients_analysis_dashboard.png
+    
+    │ └── revenue_analysis_dashboard.png
+
+    │ └── revenue_forecast(linear_regreession).png
+
+    │ └── revenue_forecast(prophet).png
+    
+    
     ├── notebooks/
 
     │ └── shopsphere_tests.ipynb
