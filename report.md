@@ -89,8 +89,9 @@ ________________________________________________________________________________
 
 Two forecasting models — Linear Regression and Prophet — were trained on two years of revenue data. Both models predicted revenue for the next 12 months, capturing seasonal fluctuations and the overall growth trend. The forecast confirms steady growth with peak values during the holiday season (November–December).
 
-![Linear Regression](images/graphs/ab_4_groups_barh.png)
-![Prophet](images/graphs/ab_4_groups_barh.png)
+![Linear Regression](images/linearregression_forecast.png)
+
+![Prophet](images/graphs/prophet_forecast.png)
 
 ________________________________________________________________________________________
 
