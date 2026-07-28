@@ -32,7 +32,7 @@ Organic is the most efficient channel with a 702% ROI at a budget of only $20K. 
 
 When looking at customer lifetime value by channel, Influencer leads with an average LTV of $1,985, followed by Referral ($1,791). Paid Search brings in the lowest-value customers at $648 LTV — poor on both ROI and customer quality. ROI and LTV tell different stories, and both metrics matter.
 
-![LTV](images/graphs/ltv_by_channel.png)
+![LTV](images/graphs/ltv_roi.png)
 
 ________________________________________________________________________________________
 
@@ -75,7 +75,22 @@ ________________________________________________________________________________
 
 The new checkout design (variant B) showed a slightly higher average order value ($287 vs $282), but the difference was not statistically significant (p = 0.51). Breaking down by customer type, new customers in group B spent $283 vs $263 in group A — a promising trend, but still not significant (p = 0.71). The experiment did not produce conclusive results.
 
-![A/B tests](images/graphs/ab_tests.png)
+![A/B tests](images/graphs/ab_barh.png)
+
+For returning customers, the picture was similar: group B showed only a $5 difference over group A (p = 0.58) — also not statistically significant. Whether we look at the full sample or break it down by customer segment, the null hypothesis cannot be rejected in any case.
+
+
+![A/B tests](images/graphs/ab_4_groups_barh.png)
+
+________________________________________________________________________________________
+
+
+**Linear Regression forecast**
+
+Two forecasting models — Linear Regression and Prophet — were trained on two years of revenue data. Both models predicted revenue for the next 12 months, capturing seasonal fluctuations and the overall growth trend. The forecast confirms steady growth with peak values during the holiday season (November–December).
+
+![Linear Regression](images/graphs/ab_4_groups_barh.png)
+![Prophet](images/graphs/ab_4_groups_barh.png)
 
 ________________________________________________________________________________________
 
