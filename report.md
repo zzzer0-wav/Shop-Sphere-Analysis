@@ -28,11 +28,11 @@ ________________________________________________________________________________
 
 Organic is the most efficient channel with a 702% ROI at a budget of only $20K. Paid Search has the largest budget ($450K) but the lowest ROI (32%) — a clear sign of poor allocation.
 
-[ скрин — Budget vs ROI by marketing channel ]
+![Budget vs roi](images/graphs/budget_vs_roi_of_channels.png)
 
 When looking at customer lifetime value by channel, Influencer leads with an average LTV of $1,985, followed by Referral ($1,791). Paid Search brings in the lowest-value customers at $648 LTV — poor on both ROI and customer quality. ROI and LTV tell different stories, and both metrics matter.
 
-[ скрин — LTV by acquisition channel ]
+![LTV](images/graphs/ltv_by_channel.png)
 
 ________________________________________________________________________________________
 
@@ -40,7 +40,7 @@ ________________________________________________________________________________
 
 Electronics generates the highest revenue (~$2.9M) but has the lowest margin (12%) and the highest return rate (17.8%) — it creates an illusion of volume. Beauty has the highest margin (~55%) with a moderate return rate, making it the most profitable category per dollar sold. Sports has the lowest return rate (9%) and a solid margin of 30%.
 
-[ скрин — Revenue vs Margin vs Return rate by category ]
+![Revenue by category](images/graphs/revenue_vs_margin_by_category.png)
 
 ________________________________________________________________________________________
 
@@ -48,26 +48,26 @@ ________________________________________________________________________________
 
 The top 5% of customers (150 people) generate 35% of total revenue ($1.2M), spending 7× more than the average buyer. Most of them came through Influencer or Organic channels.
 
-[ скрин — Revenue concentration: top 5% vs rest ]
+![Revenue by category](images/graphs/top5%.png)
 
 Analysis of purchase frequency shows that only 17.6% of customers make a single purchase. The majority return, with activity peaking at 3–5 orders per customer. On average, an active customer places 4.8 orders with an interval of approximately 30 days between purchases. Customers with 2+ orders represent the highest lifetime value — they transition from one-time transactions to sustained loyalty, providing predictable recurring revenue.
 
-[ скрин — Order frequency distribution ]
+![Order frequency](images/graphs/orders_frequency.png)
 
 
 Customers who buy mostly with discounts (average discount >20%) place twice as many orders on average (4.5 vs 2.2), which suggests they are price-sensitive but loyal when incentivized.
 
-[ скрин — Order frequency: discount buyers vs regular buyers ]
+![Discount clients](images/graphs/discounted_clients.png)
 
 
 A cohort analysis by first purchase year shows consistent growth across all three cohorts: the 2022 cohort brought 476 new customers with $2.27M in revenue, 2023 — 1,018 customers and $3.59M, and 2024 — 1,506 customers and $4.18M. This indicates that the platform is successfully acquiring new customers at an accelerating rate, and each incoming cohort generates more total revenue than the previous one.
 
-[ скрин — Cohort retention analysis ]
+![Order frequency](images/graphs/сohort_analysis.png)
 
 
 Additionally, a segment of at-risk customers was identified — buyers whose average spend is above the overall baseline but who have shown no activity for 300+ days. This group represents a high-value re-engagement opportunity that is currently being missed.
 
-[ скрин — At-risk customers: high spenders, 300+ days inactive ]
+![Sleeping potential](images/graphs/sleeping_vip.png)
 
 ________________________________________________________________________________________
 
@@ -75,7 +75,7 @@ ________________________________________________________________________________
 
 The new checkout design (variant B) showed a slightly higher average order value ($287 vs $282), but the difference was not statistically significant (p = 0.51). Breaking down by customer type, new customers in group B spent $283 vs $263 in group A — a promising trend, but still not significant (p = 0.71). The experiment did not produce conclusive results.
 
-[ скрин — A/B test results by segment and variant ]
+![A/B tests](images/graphs/ab_tests.png)
 
 ________________________________________________________________________________________
 
