@@ -75,6 +75,17 @@ The data is spread across 5 related tables connected via customer, order, and pr
 ![Revenue forecast(prophet)](images/revenue_forecast(prophet).png)
 
 ## Main insights
+Marketing Efficiency: Organic delivered the highest ROI (702%), while Paid Search consumed the largest budget ($450K) with only 32% ROI. This suggests an opportunity to optimize marketing spend toward more efficient channels.
+
+Product Profitability: Electronics generated the highest revenue (~$2.9M) but had the lowest profit margin (12%) and the highest return rate (17.8%). Beauty achieved the strongest margin (~55%), highlighting the importance of profitability over revenue alone.
+
+Customer Value & Retention: The top 5% of customers generated 35% of total revenue. Only 17.6% of customers made a single purchase, indicating strong repeat-purchase behavior and opportunities for VIP loyalty programs.
+
+Customer Segmentation: Influencer and Referral channels attracted high-value customers, with average LTVs of $1,985 and $1,791, respectively. High-value inactive customers were also identified as potential targets for reactivation campaigns.
+
+A/B Testing: The redesigned checkout showed a slightly higher average order value ($287 vs. $282), but the difference was not statistically significant (p = 0.51). Further testing is needed before recommending implementation.
+
+Revenue Forecasting: Linear Regression and Prophet were used to forecast revenue for the next 12 months. Prophet captured nonlinear patterns and seasonal fluctuations, while Linear Regression provided a simple baseline. The forecasts suggest continued growth, although uncertainty remains due to historical revenue volatility.
 
 ## Installation 
     pip install -r requirements.txt
